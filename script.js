@@ -36,7 +36,7 @@ rollBtn.addEventListener('click', function () {
         // display dice and generate the number
         diceImgElement.classList.remove('hidden');
         const roll = Math.trunc(Math.random() * 6) + 1;
-        console.log(`Dice roll: ${roll}`);
+        // console.log(`Dice roll: ${roll}`);
         diceImgElement.src = `img/dice-${roll}.png`;
 
         // Check if roll is 1
